@@ -1,6 +1,6 @@
 from fastapi import FastAPI, HTTPException
 
-from models import User
+from .models import User
 
 app = FastAPI()
 
